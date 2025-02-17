@@ -24,7 +24,8 @@ int main()
 		cout << endl;
 	}
 
-	cout << "Sum: " << sum_of_elements_on_main_diagonale(matrix) << endl;
+	cout << "Sum on main diagonale: " << sum_of_elements_on_main_diagonale(matrix) << endl;
+	cout << "Sum on addition diagonale: " << sum_of_elements_on_addition_diagonale(matrix) << endl;
 
 	return 0;
 }
