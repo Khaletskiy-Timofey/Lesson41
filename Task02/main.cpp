@@ -1,7 +1,5 @@
 #include <iostream>
-
-#define N 5
-#define M 10
+#include "logic.h"
 
 using namespace std;
 
@@ -26,14 +24,7 @@ int main()
 		cout << endl;
 	}
 
-	int sum = 0;
-
-	for (int i = 0; i < N; i++)
-	{
-		sum += matrix[i][i];
-	}
-
-	cout << "Sum: " << sum << endl;
+	cout << "Sum: " << sum_of_elements_on_main_diagonale(matrix) << endl;
 
 	return 0;
 }
